@@ -1,7 +1,9 @@
 class Player
-attr_accessor
+  attr_accessor :name, :sign
 
-  def initiliaze
+  def initialize(player_name, team_sign)
+    @name = player_name
+    @sign = team_sign
   end
 
 end
